@@ -1,0 +1,113 @@
+/* Team Member CSS Start */
+.team-member-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.front {
+    box-shadow: 3px 3px 11px 3px #f3f3f3;
+}
+
+.front img {
+    width: 60%;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.bg {
+    background-color: #000;
+}
+
+.meta {
+    color: #fff;
+    padding: 16px;
+    border-top: 6px solid green;
+}
+
+.hover{
+    background-color: #000;
+}
+
+.meta h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.meta h2, .meta p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.envelope {
+    padding-top: 10px;
+}
+
+.envelope, .calender {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.envelpe-bg, .calender-bg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 10px;
+}
+
+.envelpe-bg i.far, .calender-bg i.far {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.single-team-member {
+    position: relative;
+    width: 265px;
+    margin: 0 8px ;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-team-member:hover .hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.slick-dots li button {
+    display: none;
+}
+
+ul.slick-dots li {
+    width: 100px;
+    height: 7px;
+    background-color: #ddd;
+    margin-top: 40px;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: #333;
+    border-radius: 50px;
+}
+
+/* End Team Member CSS */
+
+
